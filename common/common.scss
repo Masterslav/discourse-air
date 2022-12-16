@@ -540,11 +540,10 @@ html body #main-outlet {
 
 
 
-body {
-    background-color: #cccccc;
-}
+
 html .background-container {
-clip-path: unset;
+  clip-path: unset;
+  background-color: #cccccc;
 }
 
 
