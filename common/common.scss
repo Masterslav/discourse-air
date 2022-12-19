@@ -542,8 +542,14 @@ html body #main-outlet {
 
 
 html .background-container {
-  clip-path: unset;
-  background-color: #cccccc;
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100vh;
+    width: 100vw;
+    background: url(https://cfmrda.ru/files/blabla_background.jpg);
+    background-size: cover;
+    clip-path: unset;
 }
 
 
