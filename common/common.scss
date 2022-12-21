@@ -586,3 +586,7 @@ button#create-topic svg{
 button#create-topic:hover{
   color: #fff79c;
 }
+
+.topic-list-item.visited .topic-list-data a.title:not(.badge-notification){
+  color: #000;
+}
