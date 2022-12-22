@@ -590,4 +590,8 @@ button#create-topic:hover{
 .topic-list-item.visited .topic-list-data a.title:not(.badge-notification){
   color: #000;
 }
-
+@media (max-device-width: 480px) {
+  .custom-search-banner{
+    display: none;
+  }
+}
